@@ -1,2 +1,1 @@
-# hello-world
-my first github page
+#This is my basic details page
