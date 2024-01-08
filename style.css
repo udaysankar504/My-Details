@@ -314,69 +314,26 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .left .C::before{
-    width: 90%;
+.skills-content .left .Docker::before{
+    width: 70%;
 }
-.skills-content .left .Cpp::before{
-    width: 80%;
-}
-.skills-content .left .Java::before{
+.skills-content .left .Kubernetes::before{
     width: 60%;
 }
-.skills-content .left .Python::before{
+.skills-content .left .GIT::before{
     width: 60%;
 }
-.skills-content .left .R::before{
-    width: 50%;
+.skills-content .left .Helm-Charts::before{
+    width: 70%;
+}
+.skills-content .left .PostgreSQL::before{
+    width: 75%;
 }
 
 /*skills content left ends*/
 
 /*skills content right starts*/
 
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
-}
-.skills .skills-content .right .info{
-    display: flex;
-    margin-bottom: 5px;
-    align-items: center;
-    justify-content: space-between;
-}
-.skills .skills-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}
-.skills .skills-content .right .line{
-    height: 5px;
-    width: 100%;
-    background: lightgrey;
-    position: relative;
-}
-.skills .skills-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
-}
-.skills-content .right .html::before{
-    width: 80%;
-}
-.skills-content .right .css::before{
-    width: 70%;
-}
-.skills-content .right .js::before{
-    width: 50%;
-}
-.skills-content .right .php::before{
-    width: 50%;
-}
-.skills-content .right .mysql::before{
-    width: 70%;
-}
-/*skills content right ends*/
 
 .owl-dots{
     text-align: center;
